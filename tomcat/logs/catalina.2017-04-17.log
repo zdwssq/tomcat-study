@@ -1,0 +1,638 @@
+17-Apr-2017 16:32:20.899 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 16:32:20.914 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 16:32:20.914 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 16:32:20.915 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 16:32:21.486 严重 [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 16:32:22.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+17-Apr-2017 16:32:22.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+17-Apr-2017 16:32:22.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+17-Apr-2017 16:32:22.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+17-Apr-2017 16:32:22.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+17-Apr-2017 16:32:22.519 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2017 16:32:22.519 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+17-Apr-2017 16:32:22.519 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+17-Apr-2017 16:32:22.519 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2017 16:32:22.519 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 16:32:22.519 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 16:32:22.520 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 16:32:22.520 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 16:32:22.520 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\github\tomcat-study\tomcat8.0\endorsed
+17-Apr-2017 16:32:22.520 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 16:32:22.520 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2017 16:32:22.520 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\github\tomcat-study\tomcat8.0\conf\logging.properties
+17-Apr-2017 16:32:22.521 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.port=7532
+17-Apr-2017 16:32:22.523 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.bin.path=D:\software\idea\IntelliJ IDEA 2016.3.4\bin
+17-Apr-2017 16:32:22.523 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Apr-2017 16:32:22.523 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_111\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;D:\software\apache-maven-3.3.9\bin;D:\software\Git\bin;D:\software\Git\usr\bin;D:\software\TortoiseGit\bin;D:\software\gradle-3.3\bin;D:\software\TortoiseSVN\bin;.
+17-Apr-2017 16:32:23.233 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 16:32:23.513 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 16:32:23.527 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 16:32:23.530 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 16:32:23.531 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2046 ms
+17-Apr-2017 16:32:23.570 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Apr-2017 16:32:23.570 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+17-Apr-2017 16:32:23.587 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs
+17-Apr-2017 16:32:24.300 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs has finished in 712 ms
+17-Apr-2017 16:32:24.301 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples
+17-Apr-2017 16:32:24.498 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+17-Apr-2017 16:32:24.499 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+17-Apr-2017 16:32:24.515 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples has finished in 214 ms
+17-Apr-2017 16:32:24.515 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager
+17-Apr-2017 16:32:24.745 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager has finished in 230 ms
+17-Apr-2017 16:32:24.746 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager
+17-Apr-2017 16:32:24.897 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager has finished in 152 ms
+17-Apr-2017 16:32:24.897 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT
+17-Apr-2017 16:32:25.049 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT has finished in 151 ms
+17-Apr-2017 16:32:25.069 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 16:32:25.106 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 16:32:25.116 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1584 ms
+17-Apr-2017 16:49:56.858 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 16:49:56.890 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 16:49:56.890 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 16:49:56.890 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 16:49:56.916 严重 [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 16:49:57.609 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+17-Apr-2017 16:49:57.609 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+17-Apr-2017 16:49:57.609 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+17-Apr-2017 16:49:57.609 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+17-Apr-2017 16:49:57.609 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+17-Apr-2017 16:49:57.609 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2017 16:49:57.610 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+17-Apr-2017 16:49:57.610 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+17-Apr-2017 16:49:57.610 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2017 16:49:57.610 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 16:49:57.610 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 16:49:57.610 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 16:49:57.610 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 16:49:57.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\github\tomcat-study\tomcat8.0\endorsed
+17-Apr-2017 16:49:57.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 16:49:57.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2017 16:49:57.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\github\tomcat-study\tomcat8.0\conf\logging.properties
+17-Apr-2017 16:49:57.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.port=7535
+17-Apr-2017 16:49:57.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.bin.path=D:\software\idea\IntelliJ IDEA 2016.3.4\bin
+17-Apr-2017 16:49:57.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Apr-2017 16:49:57.611 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_111\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;D:\software\apache-maven-3.3.9\bin;D:\software\Git\bin;D:\software\Git\usr\bin;D:\software\TortoiseGit\bin;D:\software\gradle-3.3\bin;D:\software\TortoiseSVN\bin;.
+17-Apr-2017 16:49:57.804 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 16:49:58.141 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 16:49:58.144 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 16:49:58.147 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 16:49:58.147 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1232 ms
+17-Apr-2017 16:49:58.187 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Apr-2017 16:49:58.189 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+17-Apr-2017 16:49:58.232 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs
+17-Apr-2017 16:49:59.140 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs has finished in 908 ms
+17-Apr-2017 16:49:59.141 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples
+17-Apr-2017 16:49:59.364 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+17-Apr-2017 16:49:59.365 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+17-Apr-2017 16:49:59.378 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples has finished in 237 ms
+17-Apr-2017 16:49:59.378 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager
+17-Apr-2017 16:49:59.507 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager has finished in 129 ms
+17-Apr-2017 16:49:59.508 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager
+17-Apr-2017 16:49:59.653 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager has finished in 145 ms
+17-Apr-2017 16:49:59.654 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT
+17-Apr-2017 16:49:59.746 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT has finished in 93 ms
+17-Apr-2017 16:49:59.760 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 16:49:59.776 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 16:49:59.782 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1634 ms
+17-Apr-2017 19:07:25.963 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:07:25.972 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:07:25.972 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:07:25.972 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:07:26.005 严重 [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 19:07:26.956 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+17-Apr-2017 19:07:26.957 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+17-Apr-2017 19:07:26.957 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+17-Apr-2017 19:07:26.958 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+17-Apr-2017 19:07:26.958 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+17-Apr-2017 19:07:26.958 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2017 19:07:26.958 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_80\jre
+17-Apr-2017 19:07:26.958 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_80-b15
+17-Apr-2017 19:07:26.958 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2017 19:07:26.958 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:07:26.959 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:07:26.959 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:07:26.959 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:07:26.959 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\github\tomcat-study\tomcat8.0\endorsed
+17-Apr-2017 19:07:26.960 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 19:07:26.960 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2017 19:07:26.960 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\github\tomcat-study\tomcat8.0\conf\logging.properties
+17-Apr-2017 19:07:26.960 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.port=7533
+17-Apr-2017 19:07:26.960 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.bin.path=D:\software\idea\IntelliJ IDEA 2016.3.4\bin
+17-Apr-2017 19:07:26.960 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Apr-2017 19:07:26.960 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_80\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;D:\software\apache-maven-3.3.9\bin;D:\software\Git\bin;D:\software\Git\usr\bin;D:\software\TortoiseGit\bin;D:\software\gradle-3.3\bin;D:\software\TortoiseSVN\bin;.
+17-Apr-2017 19:07:27.150 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 19:07:27.223 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 19:07:27.284 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 19:07:27.288 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 19:07:27.289 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1284 ms
+17-Apr-2017 19:07:27.367 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Apr-2017 19:07:27.367 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+17-Apr-2017 19:07:27.388 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs
+17-Apr-2017 19:07:28.223 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs has finished in 835 ms
+17-Apr-2017 19:07:28.224 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples
+17-Apr-2017 19:07:28.410 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+17-Apr-2017 19:07:28.411 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+17-Apr-2017 19:07:28.422 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples has finished in 198 ms
+17-Apr-2017 19:07:28.423 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager
+17-Apr-2017 19:07:28.545 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager has finished in 123 ms
+17-Apr-2017 19:07:28.545 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager
+17-Apr-2017 19:07:28.639 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager has finished in 94 ms
+17-Apr-2017 19:07:28.639 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT
+17-Apr-2017 19:07:28.726 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT has finished in 87 ms
+17-Apr-2017 19:07:28.729 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 19:07:28.744 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 19:07:28.749 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1460 ms
+17-Apr-2017 19:26:10.294 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:26:10.307 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:26:10.308 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:26:10.308 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:26:10.343 严重 [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 19:26:11.425 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+17-Apr-2017 19:26:11.426 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+17-Apr-2017 19:26:11.426 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+17-Apr-2017 19:26:11.426 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+17-Apr-2017 19:26:11.426 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+17-Apr-2017 19:26:11.426 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2017 19:26:11.426 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_80\jre
+17-Apr-2017 19:26:11.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_80-b15
+17-Apr-2017 19:26:11.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2017 19:26:11.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:26:11.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:26:11.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:26:11.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:26:11.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\github\tomcat-study\tomcat8.0\endorsed
+17-Apr-2017 19:26:11.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 19:26:11.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2017 19:26:11.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\github\tomcat-study\tomcat8.0\conf\logging.properties
+17-Apr-2017 19:26:11.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.port=7532
+17-Apr-2017 19:26:11.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.bin.path=D:\software\idea\IntelliJ IDEA 2016.3.4\bin
+17-Apr-2017 19:26:11.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Apr-2017 19:26:11.428 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_80\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_80\bin;D:\software\apache-maven-3.3.9\bin;D:\software\Git\bin;D:\software\Git\usr\bin;D:\software\TortoiseGit\bin;D:\software\gradle-3.3\bin;D:\software\TortoiseSVN\bin;.
+17-Apr-2017 19:26:11.658 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 19:26:11.998 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 19:26:12.031 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 19:26:12.031 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 19:26:12.031 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1674 ms
+17-Apr-2017 19:26:12.092 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Apr-2017 19:26:12.092 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+17-Apr-2017 19:26:12.104 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs
+17-Apr-2017 19:26:13.172 信息 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [172] milliseconds.
+17-Apr-2017 19:26:13.192 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs has finished in 1,088 ms
+17-Apr-2017 19:26:13.192 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples
+17-Apr-2017 19:26:13.305 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+17-Apr-2017 19:26:13.305 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+17-Apr-2017 19:26:13.326 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples has finished in 134 ms
+17-Apr-2017 19:26:13.326 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager
+17-Apr-2017 19:26:13.407 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager has finished in 81 ms
+17-Apr-2017 19:26:13.407 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager
+17-Apr-2017 19:26:13.499 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager has finished in 92 ms
+17-Apr-2017 19:26:13.499 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT
+17-Apr-2017 19:26:13.573 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT has finished in 74 ms
+17-Apr-2017 19:26:13.577 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 19:26:13.594 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 19:26:13.599 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1581 ms
+17-Apr-2017 19:29:29.850 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:29:29.851 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:29:29.851 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:29:29.851 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:29:30.211 严重 [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\github\tomcat-study\tomcat8.0\endorsed
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\github\tomcat-study\tomcat8.0\conf\logging.properties
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.port=7533
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.bin.path=D:\software\idea\IntelliJ IDEA 2016.3.4\bin
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Apr-2017 19:29:30.990 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_111\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_80\bin;D:\software\apache-maven-3.3.9\bin;D:\software\Git\bin;D:\software\Git\usr\bin;D:\software\TortoiseGit\bin;D:\software\gradle-3.3\bin;D:\software\TortoiseSVN\bin;.
+17-Apr-2017 19:29:31.514 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 19:29:31.753 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 19:29:31.763 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 19:29:31.773 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 19:29:31.773 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1556 ms
+17-Apr-2017 19:29:31.803 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Apr-2017 19:29:31.803 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+17-Apr-2017 19:29:31.813 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs
+17-Apr-2017 19:29:32.317 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs has finished in 504 ms
+17-Apr-2017 19:29:32.317 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples
+17-Apr-2017 19:29:32.458 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+17-Apr-2017 19:29:32.458 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+17-Apr-2017 19:29:32.468 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples has finished in 151 ms
+17-Apr-2017 19:29:32.468 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager
+17-Apr-2017 19:29:32.559 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager has finished in 91 ms
+17-Apr-2017 19:29:32.559 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager
+17-Apr-2017 19:29:32.670 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager has finished in 111 ms
+17-Apr-2017 19:29:32.670 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT
+17-Apr-2017 19:29:32.731 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT has finished in 61 ms
+17-Apr-2017 19:29:32.731 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 19:29:32.740 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 19:29:32.744 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 987 ms
+17-Apr-2017 19:44:43.739 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:44:43.750 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:44:43.750 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:44:43.750 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:44:43.782 严重 [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 19:44:44.520 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+17-Apr-2017 19:44:44.521 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+17-Apr-2017 19:44:44.521 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+17-Apr-2017 19:44:44.521 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+17-Apr-2017 19:44:44.522 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+17-Apr-2017 19:44:44.522 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2017 19:44:44.522 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+17-Apr-2017 19:44:44.522 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+17-Apr-2017 19:44:44.523 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2017 19:44:44.523 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:44:44.523 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:44:44.525 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:44:44.525 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:44:44.525 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\github\tomcat-study\tomcat8.0\endorsed
+17-Apr-2017 19:44:44.529 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 19:44:44.531 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2017 19:44:44.532 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\github\tomcat-study\tomcat8.0\conf\logging.properties
+17-Apr-2017 19:44:44.532 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.port=7532
+17-Apr-2017 19:44:44.533 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.bin.path=D:\software\idea\IntelliJ IDEA 2016.3.4\bin
+17-Apr-2017 19:44:44.533 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Apr-2017 19:44:44.533 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_111\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_80\bin;D:\software\apache-maven-3.3.9\bin;D:\software\Git\bin;D:\software\Git\usr\bin;D:\software\TortoiseGit\bin;D:\software\gradle-3.3\bin;D:\software\TortoiseSVN\bin;.
+17-Apr-2017 19:44:45.205 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 19:44:46.097 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 19:44:46.107 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 19:44:46.107 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 19:44:46.107 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2316 ms
+17-Apr-2017 19:44:46.147 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Apr-2017 19:44:46.147 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+17-Apr-2017 19:44:46.167 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs
+17-Apr-2017 19:44:46.843 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs has finished in 676 ms
+17-Apr-2017 19:44:46.843 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples
+17-Apr-2017 19:44:47.038 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+17-Apr-2017 19:44:47.039 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+17-Apr-2017 19:44:47.054 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples has finished in 211 ms
+17-Apr-2017 19:44:47.054 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager
+17-Apr-2017 19:44:47.253 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager has finished in 198 ms
+17-Apr-2017 19:44:47.253 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager
+17-Apr-2017 19:44:47.405 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager has finished in 152 ms
+17-Apr-2017 19:44:47.405 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT
+17-Apr-2017 19:44:47.502 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT has finished in 97 ms
+17-Apr-2017 19:44:47.512 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 19:44:47.547 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 19:44:47.557 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1443 ms
+17-Apr-2017 19:51:54.038 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:51:54.048 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:51:54.048 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:51:54.048 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 19:51:54.068 严重 [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 19:51:54.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+17-Apr-2017 19:51:54.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+17-Apr-2017 19:51:54.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+17-Apr-2017 19:51:54.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+17-Apr-2017 19:51:54.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+17-Apr-2017 19:51:54.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2017 19:51:54.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+17-Apr-2017 19:51:54.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+17-Apr-2017 19:51:54.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2017 19:51:54.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:51:54.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:51:54.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:51:54.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 19:51:54.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\github\tomcat-study\tomcat8.0\endorsed
+17-Apr-2017 19:51:54.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 19:51:54.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2017 19:51:54.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\github\tomcat-study\tomcat8.0\conf\logging.properties
+17-Apr-2017 19:51:54.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.port=7533
+17-Apr-2017 19:51:54.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.bin.path=D:\software\idea\IntelliJ IDEA 2016.3.4\bin
+17-Apr-2017 19:51:54.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Apr-2017 19:51:54.582 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_111\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_80\bin;D:\software\apache-maven-3.3.9\bin;D:\software\Git\bin;D:\software\Git\usr\bin;D:\software\TortoiseGit\bin;D:\software\gradle-3.3\bin;D:\software\TortoiseSVN\bin;.
+17-Apr-2017 19:51:54.785 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 19:51:55.121 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 19:51:55.125 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 19:51:55.128 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 19:51:55.128 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1072 ms
+17-Apr-2017 19:51:55.181 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Apr-2017 19:51:55.181 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+17-Apr-2017 19:51:55.220 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs
+17-Apr-2017 19:51:55.993 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs has finished in 772 ms
+17-Apr-2017 19:51:55.993 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples
+17-Apr-2017 19:51:56.149 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+17-Apr-2017 19:51:56.159 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+17-Apr-2017 19:51:56.169 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples has finished in 166 ms
+17-Apr-2017 19:51:56.169 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager
+17-Apr-2017 19:51:56.259 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager has finished in 90 ms
+17-Apr-2017 19:51:56.259 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager
+17-Apr-2017 19:51:56.359 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager has finished in 100 ms
+17-Apr-2017 19:51:56.369 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT
+17-Apr-2017 19:51:56.439 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT has finished in 80 ms
+17-Apr-2017 19:51:56.439 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 19:51:56.449 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 19:51:56.449 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1310 ms
+17-Apr-2017 20:22:44.371 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 20:22:44.381 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 20:22:44.381 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 20:22:44.381 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 20:22:44.402 严重 [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 20:22:45.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+17-Apr-2017 20:22:45.266 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+17-Apr-2017 20:22:45.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+17-Apr-2017 20:22:45.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+17-Apr-2017 20:22:45.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+17-Apr-2017 20:22:45.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2017 20:22:45.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+17-Apr-2017 20:22:45.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+17-Apr-2017 20:22:45.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2017 20:22:45.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 20:22:45.267 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 20:22:45.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 20:22:45.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 20:22:45.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\github\tomcat-study\tomcat8.0\endorsed
+17-Apr-2017 20:22:45.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 20:22:45.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2017 20:22:45.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\github\tomcat-study\tomcat8.0\conf\logging.properties
+17-Apr-2017 20:22:45.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.port=7532
+17-Apr-2017 20:22:45.268 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.bin.path=D:\software\idea\IntelliJ IDEA 2016.3.4\bin
+17-Apr-2017 20:22:45.270 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Apr-2017 20:22:45.270 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_111\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_80\bin;D:\software\apache-maven-3.3.9\bin;D:\software\Git\bin;D:\software\Git\usr\bin;D:\software\TortoiseGit\bin;D:\software\gradle-3.3\bin;D:\software\TortoiseSVN\bin;.
+17-Apr-2017 20:22:45.571 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 20:22:45.594 严重 [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["http-nio-8080"]
+ java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:350)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:810)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:476)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:120)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:568)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:871)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:581)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:297)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:460)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+
+17-Apr-2017 20:22:45.597 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:568)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:871)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:581)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:297)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:460)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:962)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 16 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:350)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:810)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:476)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:120)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	... 17 more
+
+17-Apr-2017 20:22:45.599 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 20:22:45.601 严重 [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["ajp-nio-8009"]
+ java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:350)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:810)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:476)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:568)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:871)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:581)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:297)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:460)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+
+17-Apr-2017 20:22:45.601 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:568)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:871)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:581)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:297)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:460)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:962)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 16 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:350)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:810)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:476)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	... 17 more
+
+17-Apr-2017 20:22:45.608 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1207 ms
+17-Apr-2017 20:22:45.653 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Apr-2017 20:22:45.653 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+17-Apr-2017 20:22:45.672 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs
+17-Apr-2017 20:22:47.303 信息 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [514] milliseconds.
+17-Apr-2017 20:22:47.343 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs has finished in 1,671 ms
+17-Apr-2017 20:22:47.343 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples
+17-Apr-2017 20:22:47.715 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+17-Apr-2017 20:22:47.717 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+17-Apr-2017 20:22:47.748 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples has finished in 404 ms
+17-Apr-2017 20:22:47.748 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager
+17-Apr-2017 20:22:47.917 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager has finished in 169 ms
+17-Apr-2017 20:22:47.917 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager
+17-Apr-2017 20:22:48.041 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager has finished in 124 ms
+17-Apr-2017 20:22:48.041 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT
+17-Apr-2017 20:22:48.172 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT has finished in 130 ms
+17-Apr-2017 20:22:48.176 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2567 ms
+17-Apr-2017 20:22:48.200 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:438)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:718)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:664)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:334)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:461)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+
+17-Apr-2017 20:22:48.201 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 20:22:48.201 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 20:22:48.201 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+17-Apr-2017 20:22:48.245 信息 [1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 20:22:48.245 信息 [1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 20:22:48.246 信息 [1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 20:22:48.246 信息 [1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 20:23:07.664 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 20:23:07.674 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 20:23:07.674 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 20:23:07.674 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 20:23:07.704 严重 [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 20:23:08.370 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+17-Apr-2017 20:23:08.370 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+17-Apr-2017 20:23:08.370 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+17-Apr-2017 20:23:08.370 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+17-Apr-2017 20:23:08.370 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+17-Apr-2017 20:23:08.370 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2017 20:23:08.371 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+17-Apr-2017 20:23:08.371 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+17-Apr-2017 20:23:08.371 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2017 20:23:08.371 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 20:23:08.371 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 20:23:08.371 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 20:23:08.371 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 20:23:08.372 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\github\tomcat-study\tomcat8.0\endorsed
+17-Apr-2017 20:23:08.372 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 20:23:08.372 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2017 20:23:08.372 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\github\tomcat-study\tomcat8.0\conf\logging.properties
+17-Apr-2017 20:23:08.372 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.port=7533
+17-Apr-2017 20:23:08.372 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.bin.path=D:\software\idea\IntelliJ IDEA 2016.3.4\bin
+17-Apr-2017 20:23:08.372 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Apr-2017 20:23:08.372 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_111\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_80\bin;D:\software\apache-maven-3.3.9\bin;D:\software\Git\bin;D:\software\Git\usr\bin;D:\software\TortoiseGit\bin;D:\software\gradle-3.3\bin;D:\software\TortoiseSVN\bin;.
+17-Apr-2017 20:23:08.570 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 20:23:08.904 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 20:23:08.905 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 20:23:08.905 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 20:23:08.905 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1217 ms
+17-Apr-2017 20:23:08.994 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Apr-2017 20:23:08.995 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+17-Apr-2017 20:23:09.007 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs
+17-Apr-2017 20:23:09.721 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs has finished in 713 ms
+17-Apr-2017 20:23:09.722 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples
+17-Apr-2017 20:23:10.067 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+17-Apr-2017 20:23:10.068 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+17-Apr-2017 20:23:10.083 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples has finished in 361 ms
+17-Apr-2017 20:23:10.083 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager
+17-Apr-2017 20:23:10.260 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager has finished in 177 ms
+17-Apr-2017 20:23:10.260 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager
+17-Apr-2017 20:23:10.454 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager has finished in 193 ms
+17-Apr-2017 20:23:10.454 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT
+17-Apr-2017 20:23:10.546 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT has finished in 91 ms
+17-Apr-2017 20:23:10.556 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 20:23:10.578 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 20:23:10.585 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1679 ms
+17-Apr-2017 20:34:19.149 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 20:34:19.163 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 20:34:19.164 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 20:34:19.164 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat8.0\lib], exists: [false], isDirectory: [false], canRead: [false]
+17-Apr-2017 20:34:19.832 严重 [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 20:34:20.956 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+17-Apr-2017 20:34:20.956 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+17-Apr-2017 20:34:20.956 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+17-Apr-2017 20:34:20.956 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+17-Apr-2017 20:34:20.956 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+17-Apr-2017 20:34:20.956 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Apr-2017 20:34:20.956 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+17-Apr-2017 20:34:20.966 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+17-Apr-2017 20:34:20.966 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2017 20:34:20.966 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 20:34:20.966 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 20:34:20.966 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 20:34:20.966 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\github\tomcat-study\tomcat8.0
+17-Apr-2017 20:34:20.966 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\github\tomcat-study\tomcat8.0\endorsed
+17-Apr-2017 20:34:20.966 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\github\tomcat-study\tomcat8.0\temp
+17-Apr-2017 20:34:20.966 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2017 20:34:20.966 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\github\tomcat-study\tomcat8.0\conf\logging.properties
+17-Apr-2017 20:34:20.966 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.port=7532
+17-Apr-2017 20:34:20.966 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.bin.path=D:\software\idea\IntelliJ IDEA 2016.3.4\bin
+17-Apr-2017 20:34:20.966 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+17-Apr-2017 20:34:20.966 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_111\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_80\bin;D:\software\apache-maven-3.3.9\bin;D:\software\Git\bin;D:\software\Git\usr\bin;D:\software\TortoiseGit\bin;D:\software\gradle-3.3\bin;D:\software\TortoiseSVN\bin;.
+17-Apr-2017 20:34:21.408 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 20:34:21.670 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 20:34:21.680 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 20:34:21.690 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Apr-2017 20:34:21.690 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1841 ms
+17-Apr-2017 20:34:21.730 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Apr-2017 20:34:21.730 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+17-Apr-2017 20:34:21.731 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs
+17-Apr-2017 20:34:22.248 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\docs has finished in 517 ms
+17-Apr-2017 20:34:22.248 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples
+17-Apr-2017 20:34:22.367 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+17-Apr-2017 20:34:22.368 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+17-Apr-2017 20:34:22.390 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\examples has finished in 142 ms
+17-Apr-2017 20:34:22.390 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager
+17-Apr-2017 20:34:22.517 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\host-manager has finished in 127 ms
+17-Apr-2017 20:34:22.518 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager
+17-Apr-2017 20:34:22.622 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\manager has finished in 104 ms
+17-Apr-2017 20:34:22.623 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT
+17-Apr-2017 20:34:22.708 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat8.0\webapps\ROOT has finished in 85 ms
+17-Apr-2017 20:34:22.716 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2017 20:34:22.772 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Apr-2017 20:34:22.779 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1105 ms

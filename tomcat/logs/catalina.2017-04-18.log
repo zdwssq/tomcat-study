@@ -1,0 +1,48 @@
+18-Apr-2017 17:31:01.602 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat\lib], exists: [false], isDirectory: [false], canRead: [false]
+18-Apr-2017 17:31:01.612 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat\lib], exists: [false], isDirectory: [false], canRead: [false]
+18-Apr-2017 17:31:01.612 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat\lib], exists: [false], isDirectory: [false], canRead: [false]
+18-Apr-2017 17:31:01.612 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\github\tomcat-study\tomcat\lib], exists: [false], isDirectory: [false], canRead: [false]
+18-Apr-2017 17:31:01.642 严重 [main] org.apache.catalina.startup.Catalina.initDirs Cannot find specified temporary folder at D:\github\tomcat-study\tomcat\temp
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/@VERSION@
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          @VERSION_BUILT@
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         @VERSION_NUMBER@
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\github\tomcat-study\tomcat
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\github\tomcat-study\tomcat
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\github\tomcat-study\tomcat
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\github\tomcat-study\tomcat
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\github\tomcat-study\tomcat\endorsed
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\github\tomcat-study\tomcat\temp
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\github\tomcat-study\tomcat\conf\logging.properties
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.port=7533
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Didea.launcher.bin.path=D:\software\idea\IntelliJ IDEA 2016.3.4\bin
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Apr-2017 17:31:02.276 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_111\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;D:\software\apache-maven-3.3.9\bin;D:\software\Git\bin;D:\software\Git\usr\bin;D:\software\TortoiseGit\bin;D:\software\gradle-3.3\bin;D:\software\TortoiseSVN\bin;.
+18-Apr-2017 17:31:02.508 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Apr-2017 17:31:02.873 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Apr-2017 17:31:02.877 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Apr-2017 17:31:02.900 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Apr-2017 17:31:02.900 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1256 ms
+18-Apr-2017 17:31:02.950 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+18-Apr-2017 17:31:02.950 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+18-Apr-2017 17:31:02.955 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat\webapps\docs
+18-Apr-2017 17:31:03.782 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat\webapps\docs has finished in 826 ms
+18-Apr-2017 17:31:03.782 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat\webapps\examples
+18-Apr-2017 17:31:03.962 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+18-Apr-2017 17:31:03.965 严重 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+18-Apr-2017 17:31:03.990 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat\webapps\examples has finished in 208 ms
+18-Apr-2017 17:31:03.990 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat\webapps\host-manager
+18-Apr-2017 17:31:04.156 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat\webapps\host-manager has finished in 166 ms
+18-Apr-2017 17:31:04.156 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat\webapps\manager
+18-Apr-2017 17:31:04.304 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat\webapps\manager has finished in 148 ms
+18-Apr-2017 17:31:04.314 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\github\tomcat-study\tomcat\webapps\ROOT
+18-Apr-2017 17:31:04.394 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\github\tomcat-study\tomcat\webapps\ROOT has finished in 90 ms
+18-Apr-2017 17:31:04.404 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Apr-2017 17:31:04.415 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Apr-2017 17:31:04.415 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1528 ms
