@@ -2,9 +2,10 @@ package ex20.pyrmont.modelmbeantest2;
 
 import java.io.InputStream;
 import java.net.URL;
+
 import javax.management.Attribute;
-import javax.management.MalformedObjectNameException;
 import javax.management.MBeanServer;
+import javax.management.MalformedObjectNameException;
 import javax.management.ObjectName;
 import javax.management.modelmbean.ModelMBean;
 

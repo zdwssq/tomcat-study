@@ -67,6 +67,8 @@ package org.apache.catalina.connector;
 
 import java.io.InputStream;
 import java.io.IOException;
+
+import javax.servlet.ReadListener;
 import javax.servlet.ServletInputStream;
 import org.apache.catalina.Request;
 import org.apache.catalina.util.StringManager;
@@ -240,5 +242,18 @@ public class RequestStream
 
     }
 
+    @Override
+    public boolean isFinished() {
+        return false;
+    }
 
+    @Override
+    public boolean isReady() {
+        return false;
+    }
+
+    @Override
+    public void setReadListener(ReadListener listener) {
+
+    }
 }

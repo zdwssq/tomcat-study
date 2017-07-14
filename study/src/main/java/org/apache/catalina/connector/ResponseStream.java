@@ -4,6 +4,8 @@ package org.apache.catalina.connector;
 import java.io.IOException;
 import java.io.OutputStream;
 import javax.servlet.ServletOutputStream;
+import javax.servlet.WriteListener;
+
 import org.apache.catalina.Response;
 import org.apache.catalina.util.StringManager;
 
@@ -276,5 +278,13 @@ public class ResponseStream
 
     }
 
+    @Override
+    public boolean isReady() {
+        return false;
+    }
 
+    @Override
+    public void setWriteListener(WriteListener listener) {
+
+    }
 }

@@ -571,10 +571,10 @@ public class WebdavServlet
                 if ((object instanceof DirContext) && (depth > 0)) {
 
                     try {
-                        NamingEnumeration enum = resources.list(currentPath);
-                        while (enum.hasMoreElements()) {
+                        NamingEnumeration enumerationeration = resources.list(currentPath);
+                        while (enumerationeration.hasMoreElements()) {
                             NameClassPair ncPair =
-                                (NameClassPair) enum.nextElement();
+                                (NameClassPair) enumerationeration.nextElement();
                             String newPath = currentPath;
                             if (!(newPath.endsWith("/")))
                                 newPath += "/";
@@ -1667,9 +1667,9 @@ public class WebdavServlet
             }
 
             try {
-                NamingEnumeration enum = resources.list(source);
-                while (enum.hasMoreElements()) {
-                    NameClassPair ncPair = (NameClassPair) enum.nextElement();
+                NamingEnumeration enumerationeration = resources.list(source);
+                while (enumerationeration.hasMoreElements()) {
+                    NameClassPair ncPair = (NameClassPair) enumerationeration.nextElement();
                     String childDest = dest;
                     if (!childDest.equals("/"))
                         childDest += "/";
@@ -1844,17 +1844,17 @@ public class WebdavServlet
         if (lockTokenHeader == null)
             lockTokenHeader = "";
 
-        Enumeration enum = null;
+        Enumeration enumerationeration = null;
         try {
-            enum = resources.list(path);
+            enumerationeration = resources.list(path);
         } catch (NamingException e) {
             errorList.put(path, new Integer
                 (WebdavStatus.SC_INTERNAL_SERVER_ERROR));
             return;
         }
 
-        while (enum.hasMoreElements()) {
-            NameClassPair ncPair = (NameClassPair) enum.nextElement();
+        while (enumerationeration.hasMoreElements()) {
+            NameClassPair ncPair = (NameClassPair) enumerationeration.nextElement();
             String childName = path;
             if (!childName.equals("/"))
                 childName += "/";

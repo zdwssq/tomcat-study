@@ -25,6 +25,11 @@ public class ResponseFacade implements ServletResponse {
     return response.getCharacterEncoding();
   }
 
+  @Override
+  public String getContentType() {
+    return null;
+  }
+
   public Locale getLocale() {
     return response.getLocale();
   }
@@ -35,6 +40,11 @@ public class ResponseFacade implements ServletResponse {
 
   public PrintWriter getWriter() throws IOException {
     return response.getWriter();
+  }
+
+  @Override
+  public void setCharacterEncoding(String charset) {
+
   }
 
   public boolean isCommitted() {
@@ -55,6 +65,11 @@ public class ResponseFacade implements ServletResponse {
 
   public void setContentLength(int length) {
     response.setContentLength(length);
+  }
+
+  @Override
+  public void setContentLengthLong(long length) {
+
   }
 
   public void setContentType(String type) {

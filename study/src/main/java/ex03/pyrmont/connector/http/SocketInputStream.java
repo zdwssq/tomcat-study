@@ -8,6 +8,7 @@ import org.apache.catalina.util.StringManager;
 /**
  * Extends InputStream to be more efficient reading lines during HTTP
  * header processing.
+ * InputStream类的包装类，之所以进行这样的包装是保证，用的时候再从输入流中解析参数
  *
  * @author <a href="mailto:remm@apache.org">Remy Maucherat</a>
  * @deprecated

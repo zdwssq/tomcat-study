@@ -12,6 +12,7 @@ import java.security.PrivilegedExceptionAction;
 import java.security.PrivilegedActionException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -223,6 +224,10 @@ public class HttpResponseBase
 
     }
 
+    @Override
+    public Collection<String> getHeaders(String name) {
+        return null;
+    }
 
     /**
      * Return an array of all the header names set for this response, or
@@ -236,7 +241,6 @@ public class HttpResponseBase
         }
 
     }
-
 
     /**
      * Return an array of all the header values associated with the
@@ -752,6 +756,10 @@ public class HttpResponseBase
 
     }
 
+    @Override
+    public void setCharacterEncoding(String charset) {
+
+    }
 
     /**
      * Set the content length (in bytes) for this Response.
@@ -770,7 +778,10 @@ public class HttpResponseBase
 
     }
 
+    @Override
+    public void setContentLengthLong(long length) {
 
+    }
 
     /**
      * Set the content type for this Response.

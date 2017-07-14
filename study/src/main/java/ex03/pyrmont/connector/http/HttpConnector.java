@@ -5,6 +5,9 @@ import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/**
+ * 连接器负责接收客户端的请求，接收到请求之后交给HttpProcessor处理
+ */
 public class HttpConnector implements Runnable {
 
     boolean stopped;
@@ -14,6 +17,7 @@ public class HttpConnector implements Runnable {
         return scheme;
     }
 
+    @Override
     public void run() {
         ServerSocket serverSocket = null;
         int port = 8080;

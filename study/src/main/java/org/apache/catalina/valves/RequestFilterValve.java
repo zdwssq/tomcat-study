@@ -67,15 +67,17 @@ package org.apache.catalina.valves;
 
 import java.io.IOException;
 import java.util.ArrayList;
+
 import javax.servlet.ServletException;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletResponse;
-import org.apache.regexp.RE;
-import org.apache.regexp.RESyntaxException;
+
 import org.apache.catalina.Request;
 import org.apache.catalina.Response;
 import org.apache.catalina.ValveContext;
 import org.apache.catalina.util.StringManager;
+import org.apache.regexp.RE;
+import org.apache.regexp.RESyntaxException;
 
 
 /**

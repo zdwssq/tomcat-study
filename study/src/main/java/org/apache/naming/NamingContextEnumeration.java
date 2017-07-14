@@ -64,11 +64,12 @@
 
 package org.apache.naming;
 
-import java.util.Vector;
 import java.util.Enumeration;
-import javax.naming.NamingException;
-import javax.naming.NamingEnumeration;
+import java.util.Vector;
+
 import javax.naming.NameClassPair;
+import javax.naming.NamingEnumeration;
+import javax.naming.NamingException;
 
 /**
  * Naming enumeration implementation.
@@ -85,12 +86,11 @@ public class NamingContextEnumeration
 
 
     public NamingContextEnumeration(Vector entries) {
-        enum = entries.elements();
+        enumeration = entries.elements();
     }
 
-
-    public NamingContextEnumeration(Enumeration enum) {
-        this.enum = enum;
+    public NamingContextEnumeration(Enumeration enumeration) {
+        this.enumeration = enumeration;
     }
 
 
@@ -100,7 +100,7 @@ public class NamingContextEnumeration
     /**
      * Underlying enumeration.
      */
-    protected Enumeration enum;
+    protected Enumeration enumeration;
 
 
     // --------------------------------------------------------- Public Methods
@@ -109,6 +109,7 @@ public class NamingContextEnumeration
     /**
      * Retrieves the next element in the enumeration.
      */
+    @Override
     public Object next()
         throws NamingException {
         return nextElement();
@@ -118,27 +119,29 @@ public class NamingContextEnumeration
     /**
      * Determines whether there are any more elements in the enumeration.
      */
+    @Override
     public boolean hasMore()
         throws NamingException {
-        return enum.hasMoreElements();
+        return enumeration.hasMoreElements();
     }
 
 
     /**
      * Closes this enumeration.
      */
+    @Override
     public void close()
         throws NamingException {
     }
 
-
+    @Override
     public boolean hasMoreElements() {
-        return enum.hasMoreElements();
+        return enumeration.hasMoreElements();
     }
 
-
+    @Override
     public Object nextElement() {
-        NamingEntry entry = (NamingEntry) enum.nextElement();
+        NamingEntry entry = (NamingEntry)enumeration.nextElement();
         return new NameClassPair(entry.name, entry.value.getClass().getName());
     }
 

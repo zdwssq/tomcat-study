@@ -4,6 +4,8 @@ import org.apache.commons.digester.Digester;
 import org.apache.commons.digester.RuleSetBase;
 
 public class EmployeeRuleSet extends RuleSetBase  {
+
+  @Override
   public void addRuleInstances(Digester digester) {
     // add rules
     digester.addObjectCreate("employee", "ex15.pyrmont.digestertest.Employee");

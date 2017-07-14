@@ -73,6 +73,11 @@ public class Response implements ServletResponse {
     return null;
   }
 
+  @Override
+  public String getContentType() {
+    return null;
+  }
+
   public Locale getLocale() {
     return null;
   }
@@ -86,6 +91,11 @@ public class Response implements ServletResponse {
     // but print() will not.
     writer = new PrintWriter(output, true);
     return writer;
+  }
+
+  @Override
+  public void setCharacterEncoding(String charset) {
+
   }
 
   public boolean isCommitted() {
@@ -102,6 +112,11 @@ public class Response implements ServletResponse {
   }
 
   public void setContentLength(int length) {
+  }
+
+  @Override
+  public void setContentLengthLong(long length) {
+
   }
 
   public void setContentType(String type) {

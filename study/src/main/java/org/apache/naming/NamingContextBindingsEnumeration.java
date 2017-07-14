@@ -71,13 +71,13 @@ import javax.naming.NamingEnumeration;
 import javax.naming.Binding;
 
 /**
- * Naming enumeration implementation.
+ * Naming enumerationeration implementation.
  *
  * @author Remy Maucherat
  * @version $Revision: 1.1 $ $Date: 2000/11/02 06:14:16 $
  */
 
-public class NamingContextBindingsEnumeration 
+public class NamingContextBindingsEnumeration
     implements NamingEnumeration {
 
 
@@ -85,12 +85,12 @@ public class NamingContextBindingsEnumeration
 
 
     public NamingContextBindingsEnumeration(Vector entries) {
-        enum = entries.elements();
+        enumeration = entries.elements();
     }
 
 
-    public NamingContextBindingsEnumeration(Enumeration enum) {
-        this.enum = enum;
+    public NamingContextBindingsEnumeration(Enumeration enumeration) {
+        this.enumeration = enumeration;
     }
 
 
@@ -98,16 +98,16 @@ public class NamingContextBindingsEnumeration
 
 
     /**
-     * Underlying enumeration.
+     * Underlying enumerationeration.
      */
-    protected Enumeration enum;
+    protected Enumeration enumeration;
 
 
     // --------------------------------------------------------- Public Methods
 
 
     /**
-     * Retrieves the next element in the enumeration.
+     * Retrieves the next element in the enumerationeration.
      */
     public Object next()
         throws NamingException {
@@ -116,16 +116,16 @@ public class NamingContextBindingsEnumeration
 
 
     /**
-     * Determines whether there are any more elements in the enumeration.
+     * Determines whether there are any more elements in the enumerationeration.
      */
     public boolean hasMore()
         throws NamingException {
-        return enum.hasMoreElements();
+        return enumeration.hasMoreElements();
     }
 
 
     /**
-     * Closes this enumeration.
+     * Closes this enumerationeration.
      */
     public void close()
         throws NamingException {
@@ -133,12 +133,12 @@ public class NamingContextBindingsEnumeration
 
 
     public boolean hasMoreElements() {
-        return enum.hasMoreElements();
+        return enumeration.hasMoreElements();
     }
 
 
     public Object nextElement() {
-        NamingEntry entry = (NamingEntry) enum.nextElement();
+        NamingEntry entry = (NamingEntry) enumeration.nextElement();
         return new Binding(entry.name, entry.value.getClass().getName(), 
                            entry.value, true);
     }

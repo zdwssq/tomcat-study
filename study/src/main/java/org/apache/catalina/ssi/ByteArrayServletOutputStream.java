@@ -66,6 +66,7 @@ package org.apache.catalina.ssi;
 
 import java.io.ByteArrayOutputStream;
 import javax.servlet.ServletOutputStream;
+import javax.servlet.WriteListener;
 
 /**
  * Class that extends ServletOuputStream, used as a wrapper
@@ -87,6 +88,16 @@ public class ByteArrayServletOutputStream extends ServletOutputStream {
      */
     public ByteArrayServletOutputStream() {
         _buf = new ByteArrayOutputStream();
+    }
+
+    @Override
+    public boolean isReady() {
+        return false;
+    }
+
+    @Override
+    public void setWriteListener(WriteListener listener) {
+
     }
 
     /**

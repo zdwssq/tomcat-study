@@ -13,6 +13,7 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
+import java.util.Collection;
 import java.util.Locale;
 import java.util.ArrayList;
 import java.util.Date;
@@ -476,6 +477,11 @@ public class HttpResponse implements HttpServletResponse {
     return writer;
   }
 
+  @Override
+  public void setCharacterEncoding(String charset) {
+
+  }
+
   /**
    * Has the output of this response already been committed?
    */
@@ -507,6 +513,11 @@ public class HttpResponse implements HttpServletResponse {
 //    if (included)
   //     return;     // Ignore any call from an included servlet
     this.contentLength = length;
+  }
+
+  @Override
+  public void setContentLengthLong(long length) {
+
   }
 
   public void setContentType(String type) {
@@ -578,5 +589,25 @@ public class HttpResponse implements HttpServletResponse {
   }
 
   public void setStatus(int sc, String message) {
+  }
+
+  @Override
+  public int getStatus() {
+    return 0;
+  }
+
+  @Override
+  public String getHeader(String name) {
+    return null;
+  }
+
+  @Override
+  public Collection<String> getHeaders(String name) {
+    return null;
+  }
+
+  @Override
+  public Collection<String> getHeaderNames() {
+    return null;
   }
 }

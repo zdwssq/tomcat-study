@@ -3,6 +3,8 @@ package org.apache.catalina.connector.http;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collection;
+
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.catalina.connector.HttpResponseBase;
@@ -17,8 +19,7 @@ import org.apache.catalina.connector.HttpResponseBase;
  * @deprecated
  */
 
-final class HttpResponseImpl
-    extends HttpResponseBase {
+final class HttpResponseImpl extends HttpResponseBase {
 
 
     // ----------------------------------------------------- Instance Variables
@@ -241,6 +242,15 @@ final class HttpResponseImpl
 
     }
 
+    @Override
+    public Collection<String> getHeaders(String name) {
+        return null;
+    }
+
+    @Override
+    public void setCharacterEncoding(String charset) {
+
+    }
 
     /**
      * Set the content length (in bytes) for this Response.
@@ -262,5 +272,9 @@ final class HttpResponseImpl
 
     }
 
+    @Override
+    public void setContentLengthLong(long length) {
+
+    }
 
 }

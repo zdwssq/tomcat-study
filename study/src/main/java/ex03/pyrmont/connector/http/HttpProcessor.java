@@ -12,7 +12,10 @@ import ex03.pyrmont.StaticResourceProcessor;
 import org.apache.catalina.util.RequestUtil;
 import org.apache.catalina.util.StringManager;
 
-/* this class used to be called HttpServer */
+/**
+ * this class used to be called HttpServer
+ * 处理所有的Http请求
+ */
 public class HttpProcessor {
 
     public HttpProcessor(HttpConnector connector) {
