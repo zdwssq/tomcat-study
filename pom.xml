@@ -13,7 +13,8 @@
 	<modules>
 		<module>tomcat</module>
 		<module>study</module>
-	</modules>
+        <module>lesson</module>
+    </modules>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.maven.plugins</groupId>

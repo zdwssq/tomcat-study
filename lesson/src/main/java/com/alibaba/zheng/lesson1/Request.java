@@ -1,10 +1,14 @@
-package ex01.pyrmont;
+package com.alibaba.zheng.lesson1;
 
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * @author zhengxianwei.zxw
+ * @description
+ * @time 2017/8/14 下午1:55
+ */
 public class Request {
-
     private InputStream input;
     private String uri;
 
@@ -13,31 +17,33 @@ public class Request {
     }
 
     public void parse() {
-        // Read a set of characters from the socket
         StringBuffer request = new StringBuffer(2048);
         int i;
         byte[] buffer = new byte[2048];
-        try {
+        try{
+            //返回读取的字节数
             i = input.read(buffer);
         } catch (IOException e) {
             e.printStackTrace();
             i = -1;
         }
-        for (int j = 0; j < i; j++) {
+
+        for(int j = 0; j < i; j++) {
             request.append((char)buffer[j]);
         }
-        System.out.print(request.toString());
+        System.out.println(request.toString());
         uri = parseUri(request.toString());
     }
 
     private String parseUri(String requestString) {
         int index1, index2;
         index1 = requestString.indexOf(' ');
-        if (index1 != -1) {
+        if(index1 != -1) {
             index2 = requestString.indexOf(' ', index1 + 1);
-            if (index2 > index1) {
+            if(index2 > index1) {
                 return requestString.substring(index1 + 1, index2);
             }
+            return null;
         }
         return null;
     }
@@ -45,5 +51,4 @@ public class Request {
     public String getUri() {
         return uri;
     }
-
 }
